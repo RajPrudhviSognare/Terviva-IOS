@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TeamMessagesTableViewCell" rowHeight="70" id="KGk-i7-Jjw" customClass="TeamMessagesTableViewCell" customModule="Smartrac_Grohe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="420" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="420" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hn0-7J-A8c">
+                        <rect key="frame" x="372" y="19" width="32" height="32"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9y-DW-kVN">
+                        <rect key="frame" x="372" y="19" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="61c-wt-voq"/>
+                            <constraint firstAttribute="height" constant="32" id="DIv-Il-DVL"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raghava" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YbG-uO-Gy0">
+                        <rect key="frame" x="104" y="24.5" width="256" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" name="App_Theme"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DNg-st-FBI">
+                        <rect key="frame" x="60" y="19" width="32" height="32"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTn-fN-Syl">
+                        <rect key="frame" x="60" y="19" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="FwO-O9-0lZ"/>
+                            <constraint firstAttribute="height" constant="32" id="hSC-Kd-pKB"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YbG-uO-Gy0" firstAttribute="leading" secondItem="LTn-fN-Syl" secondAttribute="trailing" constant="12" id="4cd-Ye-Pyd"/>
+                    <constraint firstItem="hn0-7J-A8c" firstAttribute="trailing" secondItem="K9y-DW-kVN" secondAttribute="trailing" id="CpS-ud-sXu"/>
+                    <constraint firstItem="DNg-st-FBI" firstAttribute="top" secondItem="LTn-fN-Syl" secondAttribute="top" id="JBg-di-kxZ"/>
+                    <constraint firstItem="LTn-fN-Syl" firstAttribute="centerY" secondItem="YbG-uO-Gy0" secondAttribute="centerY" id="Kxo-VD-TRB"/>
+                    <constraint firstAttribute="trailing" secondItem="K9y-DW-kVN" secondAttribute="trailing" constant="16" id="OHL-ax-F5L"/>
+                    <constraint firstItem="hn0-7J-A8c" firstAttribute="leading" secondItem="K9y-DW-kVN" secondAttribute="leading" id="RWY-gh-HPn"/>
+                    <constraint firstItem="hn0-7J-A8c" firstAttribute="top" secondItem="K9y-DW-kVN" secondAttribute="top" id="S5q-wW-rYZ"/>
+                    <constraint firstItem="K9y-DW-kVN" firstAttribute="leading" secondItem="YbG-uO-Gy0" secondAttribute="trailing" constant="12" id="faC-So-xyo"/>
+                    <constraint firstItem="DNg-st-FBI" firstAttribute="leading" secondItem="LTn-fN-Syl" secondAttribute="leading" id="ffJ-pc-SHX"/>
+                    <constraint firstItem="hn0-7J-A8c" firstAttribute="bottom" secondItem="K9y-DW-kVN" secondAttribute="bottom" id="jI6-PL-l59"/>
+                    <constraint firstItem="DNg-st-FBI" firstAttribute="bottom" secondItem="LTn-fN-Syl" secondAttribute="bottom" id="mDG-MW-bZN"/>
+                    <constraint firstItem="DNg-st-FBI" firstAttribute="trailing" secondItem="LTn-fN-Syl" secondAttribute="trailing" id="pGf-HF-NJG"/>
+                    <constraint firstItem="K9y-DW-kVN" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="wSm-as-dO3"/>
+                    <constraint firstItem="YbG-uO-Gy0" firstAttribute="centerY" secondItem="K9y-DW-kVN" secondAttribute="centerY" id="xhT-NW-bTp"/>
+                    <constraint firstItem="LTn-fN-Syl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="60" id="yAz-G1-hIM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkButton" destination="K9y-DW-kVN" id="w7g-he-99c"/>
+                <outlet property="checkImageview" destination="hn0-7J-A8c" id="DsC-jX-XiW"/>
+                <outlet property="containerView" destination="H2p-sc-9uM" id="JV1-5K-3NU"/>
+                <outlet property="nameLabel" destination="YbG-uO-Gy0" id="Axd-IN-RMD"/>
+                <outlet property="radioButton" destination="LTn-fN-Syl" id="aLf-h0-53y"/>
+                <outlet property="radioCheckImageview" destination="DNg-st-FBI" id="jLG-A6-8IY"/>
+            </connections>
+            <point key="canvasLocation" x="331.8840579710145" y="60.267857142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="App_Theme">
+            <color red="0.27450980392156865" green="0.44313725490196076" blue="0.6470588235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

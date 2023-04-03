@@ -1,0 +1,6 @@
+framework module Pods_Terviva_TervivaUITests {
+  umbrella header "Pods-Terviva-TervivaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

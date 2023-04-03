@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FormatsTableViewCell" rowHeight="62" id="KGk-i7-Jjw" customClass="FormatsTableViewCell" customModule="Smartrac_Grohe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="62"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="398" height="62"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Local Formats" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jsg-Ey-whD">
+                        <rect key="frame" x="12" y="8" width="318" height="46"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGZ-WB-RTm">
+                        <rect key="frame" x="342" y="15" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="33D-f9-fHA"/>
+                            <constraint firstAttribute="height" constant="32" id="DOh-8o-7G0"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="file_downloaded"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bGZ-WB-RTm" firstAttribute="leading" secondItem="Jsg-Ey-whD" secondAttribute="trailing" constant="12" id="3pW-Iy-smU"/>
+                    <constraint firstItem="bGZ-WB-RTm" firstAttribute="centerY" secondItem="Jsg-Ey-whD" secondAttribute="centerY" id="5vs-Nr-Qr0"/>
+                    <constraint firstItem="Jsg-Ey-whD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="CfL-rB-5rr"/>
+                    <constraint firstAttribute="bottom" secondItem="Jsg-Ey-whD" secondAttribute="bottom" constant="8" id="JNj-l8-z5Y"/>
+                    <constraint firstItem="Jsg-Ey-whD" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Now-Ge-VJY"/>
+                    <constraint firstItem="Jsg-Ey-whD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="RP5-4Y-sZR"/>
+                    <constraint firstAttribute="trailing" secondItem="bGZ-WB-RTm" secondAttribute="trailing" constant="24" id="y3K-qx-Ko5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="downloadButton" destination="bGZ-WB-RTm" id="4mI-AC-vUM"/>
+                <outlet property="titleLabel" destination="Jsg-Ey-whD" id="Uhj-ff-c76"/>
+            </connections>
+            <point key="canvasLocation" x="120.28985507246378" y="22.767857142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="file_downloaded" width="48" height="48"/>
+    </resources>
+</document>

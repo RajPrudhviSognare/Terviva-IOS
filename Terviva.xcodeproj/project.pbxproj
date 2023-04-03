@@ -1,0 +1,1303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FF07372951ED33003450AB /* KPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF07362951ED33003450AB /* KPSViewController.swift */; };
+		3D1B07BE285A341F00134CC1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B07BD285A341F00134CC1 /* LoginViewController.swift */; };
+		3D1B07C2285A367B00134CC1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B07C1285A367B00134CC1 /* NetworkManager.swift */; };
+		3D1B07C4285A371300134CC1 /* AttendanceSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B07C3285A371300134CC1 /* AttendanceSummary.swift */; };
+		3D1B07C7285A37B000134CC1 /* SGAppUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B07C6285A37B000134CC1 /* SGAppUrl.swift */; };
+		3D1B07C9285A383E00134CC1 /* SGCommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B07C8285A383E00134CC1 /* SGCommonMethods.swift */; };
+		3D1B07CB285A38EE00134CC1 /* CellIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B07CA285A38EE00134CC1 /* CellIdentifiers.swift */; };
+		3D1B07CD285A397F00134CC1 /* MessageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B07CC285A397F00134CC1 /* MessageConstants.swift */; };
+		3D1B07CF285A39BC00134CC1 /* UIViewControllersExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B07CE285A39BC00134CC1 /* UIViewControllersExtensions.swift */; };
+		3D1B07D1285A3A1000134CC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B07D0285A3A1000134CC1 /* HomeViewController.swift */; };
+		3D1B07DB285A7C3A00134CC1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1B07DA285A7C3A00134CC1 /* Colors.xcassets */; };
+		3D1B07DD285A7D2C00134CC1 /* SGImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B07DC285A7D2C00134CC1 /* SGImages.swift */; };
+		3D1B07DF285A7D4700134CC1 /* SGColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B07DE285A7D4700134CC1 /* SGColors.swift */; };
+		3D1B07E1285A7D7100134CC1 /* SGEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B07E0285A7D7100134CC1 /* SGEnums.swift */; };
+		3D24B57F28666B93009E2DED /* Team.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D24B57E28666B93009E2DED /* Team.storyboard */; };
+		3D24B58328667118009E2DED /* AttendanceReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B58228667118009E2DED /* AttendanceReportsViewController.swift */; };
+		3D24B58628667B11009E2DED /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B58528667B11009E2DED /* DashBoardViewController.swift */; };
+		3D24B58928668008009E2DED /* AttendanceApprovalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B58828668008009E2DED /* AttendanceApprovalViewController.swift */; };
+		3D24B58C2866848C009E2DED /* TeamViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B58B2866848B009E2DED /* TeamViewViewController.swift */; };
+		3D24B58E28669C64009E2DED /* InOutTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B58D28669C64009E2DED /* InOutTeamViewController.swift */; };
+		3D24B5922866A206009E2DED /* InOutTeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B5902866A206009E2DED /* InOutTeamTableViewCell.swift */; };
+		3D24B5932866A206009E2DED /* InOutTeamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D24B5912866A206009E2DED /* InOutTeamTableViewCell.xib */; };
+		3D24B5962866AB7E009E2DED /* SendMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B5952866AB7E009E2DED /* SendMessagesViewController.swift */; };
+		3D24B5982866AC5A009E2DED /* CreateGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B5972866AC5A009E2DED /* CreateGroupsViewController.swift */; };
+		3D24B59A28671721009E2DED /* CreateNewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B59928671720009E2DED /* CreateNewGroupViewController.swift */; };
+		3D24B59D2867274C009E2DED /* EditGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B59B2867274C009E2DED /* EditGroupTableViewCell.swift */; };
+		3D24B59E2867274C009E2DED /* EditGroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D24B59C2867274C009E2DED /* EditGroupTableViewCell.xib */; };
+		3D24B5A128672ADA009E2DED /* NewGroupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B59F28672ADA009E2DED /* NewGroupsTableViewCell.swift */; };
+		3D24B5A228672ADA009E2DED /* NewGroupsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D24B5A028672ADA009E2DED /* NewGroupsTableViewCell.xib */; };
+		3D24B5A528672F7D009E2DED /* TeamMessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B5A328672F7D009E2DED /* TeamMessagesTableViewCell.swift */; };
+		3D24B5A628672F7D009E2DED /* TeamMessagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D24B5A428672F7D009E2DED /* TeamMessagesTableViewCell.xib */; };
+		3D24B5A828673140009E2DED /* TeamMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B5A728673140009E2DED /* TeamMessageView.swift */; };
+		3D24B5AA28673152009E2DED /* TeamMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D24B5A928673152009E2DED /* TeamMessageView.xib */; };
+		3D24B5AD2867484F009E2DED /* DashBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B5AB2867484F009E2DED /* DashBoardTableViewCell.swift */; };
+		3D24B5AE2867484F009E2DED /* DashBoardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D24B5AC2867484F009E2DED /* DashBoardTableViewCell.xib */; };
+		3D24B5B12868560C009E2DED /* MeetingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24B5AF2868560C009E2DED /* MeetingTableViewCell.swift */; };
+		3D24B5B22868560C009E2DED /* MeetingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D24B5B02868560C009E2DED /* MeetingTableViewCell.xib */; };
+		3D274C24285FE4E300C7E687 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D274C23285FE4E300C7E687 /* CurrentLocationViewController.swift */; };
+		3DC2D687285A2E9A007F9469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2D686285A2E9A007F9469 /* AppDelegate.swift */; };
+		3DC2D689285A2E9A007F9469 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2D688285A2E9A007F9469 /* SceneDelegate.swift */; };
+		3DC2D68B285A2E9A007F9469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2D68A285A2E9A007F9469 /* ViewController.swift */; };
+		3DC2D68E285A2E9A007F9469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC2D68C285A2E9A007F9469 /* Main.storyboard */; };
+		3DC2D693285A2E9E007F9469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC2D692285A2E9E007F9469 /* Assets.xcassets */; };
+		3DC2D696285A2E9E007F9469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC2D694285A2E9E007F9469 /* LaunchScreen.storyboard */; };
+		3DC2D6A1285A2E9E007F9469 /* TervivaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2D6A0285A2E9E007F9469 /* TervivaTests.swift */; };
+		3DC2D6AB285A2E9E007F9469 /* TervivaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2D6AA285A2E9E007F9469 /* TervivaUITests.swift */; };
+		3DC2D6AD285A2E9E007F9469 /* TervivaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2D6AC285A2E9E007F9469 /* TervivaUITestsLaunchTests.swift */; };
+		3DE7B22028639C0B00EEF8E2 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7B21F28639C0B00EEF8E2 /* LoginModel.swift */; };
+		3DFDE366285CF7E100292F6C /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE364285CF7E100292F6C /* HomeCollectionViewCell.swift */; };
+		3DFDE367285CF7E100292F6C /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFDE365285CF7E100292F6C /* HomeCollectionViewCell.xib */; };
+		3DFDE370285D460F00292F6C /* HRMSContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE36F285D460F00292F6C /* HRMSContainerViewController.swift */; };
+		3DFDE372285D462D00292F6C /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE371285D462D00292F6C /* AttendanceViewController.swift */; };
+		3DFDE374285D465100292F6C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE373285D465100292F6C /* MessageViewController.swift */; };
+		3DFDE376285D48E600292F6C /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE375285D48E600292F6C /* ReportsViewController.swift */; };
+		3DFDE379285D4E5A00292F6C /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE378285D4E5A00292F6C /* CAPSPageMenu.swift */; };
+		3DFDE37B285D4FAB00292F6C /* EmployeeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE37A285D4FAB00292F6C /* EmployeeInfoViewController.swift */; };
+		3DFDE37D285D503900292F6C /* LeaveBalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE37C285D503900292F6C /* LeaveBalanceViewController.swift */; };
+		3DFDE37F285D507B00292F6C /* PayslipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE37E285D507B00292F6C /* PayslipsViewController.swift */; };
+		3DFDE381285D509A00292F6C /* FormatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE380285D509A00292F6C /* FormatsViewController.swift */; };
+		3DFDE386285D5A6600292F6C /* FormatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE384285D5A6600292F6C /* FormatsTableViewCell.swift */; };
+		3DFDE387285D5A6600292F6C /* FormatsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFDE385285D5A6600292F6C /* FormatsTableViewCell.xib */; };
+		3DFDE38C285D665E00292F6C /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE38A285D665E00292F6C /* MessagesTableViewCell.swift */; };
+		3DFDE38D285D665E00292F6C /* MessagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFDE38B285D665E00292F6C /* MessagesTableViewCell.xib */; };
+		3DFDE38F285DE0FE00292F6C /* InTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE38E285DE0FE00292F6C /* InTimeViewController.swift */; };
+		3DFDE391285DE11D00292F6C /* OutTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE390285DE11D00292F6C /* OutTimeViewController.swift */; };
+		3DFDE393285DE15300292F6C /* LeaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE392285DE15300292F6C /* LeaveViewController.swift */; };
+		3DFDE395285DE17000292F6C /* OnDutyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE394285DE17000292F6C /* OnDutyViewController.swift */; };
+		3DFDE397285E349500292F6C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE396285E349400292F6C /* SettingsViewController.swift */; };
+		3DFDE39A285E34CC00292F6C /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE399285E34CC00292F6C /* ChangePasswordViewController.swift */; };
+		3DFDE39E285E7D3B00292F6C /* LeaveBalanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE39C285E7D3B00292F6C /* LeaveBalanceTableViewCell.swift */; };
+		3DFDE39F285E7D3B00292F6C /* LeaveBalanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFDE39D285E7D3B00292F6C /* LeaveBalanceTableViewCell.xib */; };
+		3DFDE3A3285EA9CC00292F6C /* ReportsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE3A1285EA9CC00292F6C /* ReportsTableViewCell.swift */; };
+		3DFDE3A4285EA9CC00292F6C /* ReportsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFDE3A2285EA9CC00292F6C /* ReportsTableViewCell.xib */; };
+		3DFDE3A7285EAE6900292F6C /* ReportsDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE3A5285EAE6800292F6C /* ReportsDetailsTableViewCell.swift */; };
+		3DFDE3A8285EAE6900292F6C /* ReportsDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFDE3A6285EAE6900292F6C /* ReportsDetailsTableViewCell.xib */; };
+		3DFDE3AA285EB05000292F6C /* ReportsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDE3A9285EB05000292F6C /* ReportsDetailsViewController.swift */; };
+		5CAF78D64B17734CF5AC6C39 /* Pods_TervivaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367C8C96160F0A9017F79911 /* Pods_TervivaTests.framework */; };
+		78BC9E91457D9FA95EEC4B33 /* Pods_Terviva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B333AC0C91A39A7157E46D9 /* Pods_Terviva.framework */; };
+		8D060343640F5A435962E7F5 /* Pods_Terviva_TervivaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC95CA173E1701FE5642F870 /* Pods_Terviva_TervivaUITests.framework */; };
+		CC9590A8299BAA6600AD652D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9590A7299BAA6600AD652D /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DC2D69D285A2E9E007F9469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC2D67B285A2E9A007F9469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC2D682285A2E9A007F9469;
+			remoteInfo = "Smartrac-Grohe";
+		};
+		3DC2D6A7285A2E9E007F9469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC2D67B285A2E9A007F9469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC2D682285A2E9A007F9469;
+			remoteInfo = "Smartrac-Grohe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04530B239320915A6849F4B3 /* Pods-Terviva.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terviva.debug.xcconfig"; path = "Target Support Files/Pods-Terviva/Pods-Terviva.debug.xcconfig"; sourceTree = "<group>"; };
+		18FF07362951ED33003450AB /* KPSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPSViewController.swift; sourceTree = "<group>"; };
+		3103D6037191E4DCBAC0A169 /* Pods-Terviva.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terviva.release.xcconfig"; path = "Target Support Files/Pods-Terviva/Pods-Terviva.release.xcconfig"; sourceTree = "<group>"; };
+		34D18D77BC0468C803821389 /* Pods-Smartrac-Grohe-Smartrac-GroheUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartrac-Grohe-Smartrac-GroheUITests.debug.xcconfig"; path = "Target Support Files/Pods-Smartrac-Grohe-Smartrac-GroheUITests/Pods-Smartrac-Grohe-Smartrac-GroheUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		367C8C96160F0A9017F79911 /* Pods_TervivaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TervivaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B333AC0C91A39A7157E46D9 /* Pods_Terviva.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Terviva.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1B07BD285A341F00134CC1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D1B07C1285A367B00134CC1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3D1B07C3285A371300134CC1 /* AttendanceSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceSummary.swift; sourceTree = "<group>"; };
+		3D1B07C6285A37B000134CC1 /* SGAppUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGAppUrl.swift; sourceTree = "<group>"; };
+		3D1B07C8285A383E00134CC1 /* SGCommonMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGCommonMethods.swift; sourceTree = "<group>"; };
+		3D1B07CA285A38EE00134CC1 /* CellIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifiers.swift; sourceTree = "<group>"; };
+		3D1B07CC285A397F00134CC1 /* MessageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageConstants.swift; sourceTree = "<group>"; };
+		3D1B07CE285A39BC00134CC1 /* UIViewControllersExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllersExtensions.swift; sourceTree = "<group>"; };
+		3D1B07D0285A3A1000134CC1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D1B07DA285A7C3A00134CC1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		3D1B07DC285A7D2C00134CC1 /* SGImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGImages.swift; sourceTree = "<group>"; };
+		3D1B07DE285A7D4700134CC1 /* SGColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGColors.swift; sourceTree = "<group>"; };
+		3D1B07E0285A7D7100134CC1 /* SGEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGEnums.swift; sourceTree = "<group>"; };
+		3D24B57E28666B93009E2DED /* Team.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Team.storyboard; sourceTree = "<group>"; };
+		3D24B58228667118009E2DED /* AttendanceReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceReportsViewController.swift; sourceTree = "<group>"; };
+		3D24B58528667B11009E2DED /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		3D24B58828668008009E2DED /* AttendanceApprovalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceApprovalViewController.swift; sourceTree = "<group>"; };
+		3D24B58B2866848B009E2DED /* TeamViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewViewController.swift; sourceTree = "<group>"; };
+		3D24B58D28669C64009E2DED /* InOutTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InOutTeamViewController.swift; sourceTree = "<group>"; };
+		3D24B5902866A206009E2DED /* InOutTeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InOutTeamTableViewCell.swift; sourceTree = "<group>"; };
+		3D24B5912866A206009E2DED /* InOutTeamTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InOutTeamTableViewCell.xib; sourceTree = "<group>"; };
+		3D24B5952866AB7E009E2DED /* SendMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessagesViewController.swift; sourceTree = "<group>"; };
+		3D24B5972866AC5A009E2DED /* CreateGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsViewController.swift; sourceTree = "<group>"; };
+		3D24B59928671720009E2DED /* CreateNewGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewGroupViewController.swift; sourceTree = "<group>"; };
+		3D24B59B2867274C009E2DED /* EditGroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGroupTableViewCell.swift; sourceTree = "<group>"; };
+		3D24B59C2867274C009E2DED /* EditGroupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditGroupTableViewCell.xib; sourceTree = "<group>"; };
+		3D24B59F28672ADA009E2DED /* NewGroupsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupsTableViewCell.swift; sourceTree = "<group>"; };
+		3D24B5A028672ADA009E2DED /* NewGroupsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewGroupsTableViewCell.xib; sourceTree = "<group>"; };
+		3D24B5A328672F7D009E2DED /* TeamMessagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMessagesTableViewCell.swift; sourceTree = "<group>"; };
+		3D24B5A428672F7D009E2DED /* TeamMessagesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamMessagesTableViewCell.xib; sourceTree = "<group>"; };
+		3D24B5A728673140009E2DED /* TeamMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMessageView.swift; sourceTree = "<group>"; };
+		3D24B5A928673152009E2DED /* TeamMessageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamMessageView.xib; sourceTree = "<group>"; };
+		3D24B5AB2867484F009E2DED /* DashBoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardTableViewCell.swift; sourceTree = "<group>"; };
+		3D24B5AC2867484F009E2DED /* DashBoardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashBoardTableViewCell.xib; sourceTree = "<group>"; };
+		3D24B5AF2868560C009E2DED /* MeetingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTableViewCell.swift; sourceTree = "<group>"; };
+		3D24B5B02868560C009E2DED /* MeetingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingTableViewCell.xib; sourceTree = "<group>"; };
+		3D274C23285FE4E300C7E687 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
+		3DC2D683285A2E9A007F9469 /* Terviva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Terviva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC2D686285A2E9A007F9469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DC2D688285A2E9A007F9469 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DC2D68A285A2E9A007F9469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DC2D68D285A2E9A007F9469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DC2D692285A2E9E007F9469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DC2D695285A2E9E007F9469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DC2D697285A2E9E007F9469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC2D69C285A2E9E007F9469 /* TervivaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TervivaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC2D6A0285A2E9E007F9469 /* TervivaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TervivaTests.swift; sourceTree = "<group>"; };
+		3DC2D6A6285A2E9E007F9469 /* TervivaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TervivaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC2D6AA285A2E9E007F9469 /* TervivaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TervivaUITests.swift; sourceTree = "<group>"; };
+		3DC2D6AC285A2E9E007F9469 /* TervivaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TervivaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DE7B21F28639C0B00EEF8E2 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		3DFDE364285CF7E100292F6C /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DFDE365285CF7E100292F6C /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		3DFDE36F285D460F00292F6C /* HRMSContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRMSContainerViewController.swift; sourceTree = "<group>"; };
+		3DFDE371285D462D00292F6C /* AttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceViewController.swift; sourceTree = "<group>"; };
+		3DFDE373285D465100292F6C /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		3DFDE375285D48E600292F6C /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		3DFDE378285D4E5A00292F6C /* CAPSPageMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		3DFDE37A285D4FAB00292F6C /* EmployeeInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeInfoViewController.swift; sourceTree = "<group>"; };
+		3DFDE37C285D503900292F6C /* LeaveBalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveBalanceViewController.swift; sourceTree = "<group>"; };
+		3DFDE37E285D507B00292F6C /* PayslipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayslipsViewController.swift; sourceTree = "<group>"; };
+		3DFDE380285D509A00292F6C /* FormatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatsViewController.swift; sourceTree = "<group>"; };
+		3DFDE384285D5A6600292F6C /* FormatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatsTableViewCell.swift; sourceTree = "<group>"; };
+		3DFDE385285D5A6600292F6C /* FormatsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormatsTableViewCell.xib; sourceTree = "<group>"; };
+		3DFDE38A285D665E00292F6C /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
+		3DFDE38B285D665E00292F6C /* MessagesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessagesTableViewCell.xib; sourceTree = "<group>"; };
+		3DFDE38E285DE0FE00292F6C /* InTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTimeViewController.swift; sourceTree = "<group>"; };
+		3DFDE390285DE11D00292F6C /* OutTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutTimeViewController.swift; sourceTree = "<group>"; };
+		3DFDE392285DE15300292F6C /* LeaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveViewController.swift; sourceTree = "<group>"; };
+		3DFDE394285DE17000292F6C /* OnDutyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDutyViewController.swift; sourceTree = "<group>"; };
+		3DFDE396285E349400292F6C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3DFDE399285E34CC00292F6C /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		3DFDE39C285E7D3B00292F6C /* LeaveBalanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveBalanceTableViewCell.swift; sourceTree = "<group>"; };
+		3DFDE39D285E7D3B00292F6C /* LeaveBalanceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeaveBalanceTableViewCell.xib; sourceTree = "<group>"; };
+		3DFDE3A1285EA9CC00292F6C /* ReportsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsTableViewCell.swift; sourceTree = "<group>"; };
+		3DFDE3A2285EA9CC00292F6C /* ReportsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReportsTableViewCell.xib; sourceTree = "<group>"; };
+		3DFDE3A5285EAE6800292F6C /* ReportsDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		3DFDE3A6285EAE6900292F6C /* ReportsDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReportsDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		3DFDE3A9285EB05000292F6C /* ReportsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsDetailsViewController.swift; sourceTree = "<group>"; };
+		3EBFD00C718FB553C0D28862 /* Pods-Smartrac-GroheTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartrac-GroheTests.release.xcconfig"; path = "Target Support Files/Pods-Smartrac-GroheTests/Pods-Smartrac-GroheTests.release.xcconfig"; sourceTree = "<group>"; };
+		64402ED37301049207077288 /* Pods-TervivaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TervivaTests.debug.xcconfig"; path = "Target Support Files/Pods-TervivaTests/Pods-TervivaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E38EA8112256B35CAA71735 /* Pods-Smartrac-Grohe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartrac-Grohe.release.xcconfig"; path = "Target Support Files/Pods-Smartrac-Grohe/Pods-Smartrac-Grohe.release.xcconfig"; sourceTree = "<group>"; };
+		8F9FBAC997F4E731993F8108 /* Pods-Smartrac-GroheTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartrac-GroheTests.debug.xcconfig"; path = "Target Support Files/Pods-Smartrac-GroheTests/Pods-Smartrac-GroheTests.debug.xcconfig"; sourceTree = "<group>"; };
+		911850EC81708E4F348A8255 /* Pods-Terviva-TervivaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terviva-TervivaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Terviva-TervivaUITests/Pods-Terviva-TervivaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		946CFA91572B210070AB72A0 /* Pods-Smartrac-Grohe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartrac-Grohe.debug.xcconfig"; path = "Target Support Files/Pods-Smartrac-Grohe/Pods-Smartrac-Grohe.debug.xcconfig"; sourceTree = "<group>"; };
+		AC95CA173E1701FE5642F870 /* Pods_Terviva_TervivaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Terviva_TervivaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB77761313E9ABAB062974E /* Pods-TervivaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TervivaTests.release.xcconfig"; path = "Target Support Files/Pods-TervivaTests/Pods-TervivaTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB994B11A6ACB5C6A60F08ED /* Pods-Terviva-TervivaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terviva-TervivaUITests.release.xcconfig"; path = "Target Support Files/Pods-Terviva-TervivaUITests/Pods-Terviva-TervivaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC9590A7299BAA6600AD652D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D34FD8FC495121A9075BD816 /* Pods-Smartrac-Grohe-Smartrac-GroheUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartrac-Grohe-Smartrac-GroheUITests.release.xcconfig"; path = "Target Support Files/Pods-Smartrac-Grohe-Smartrac-GroheUITests/Pods-Smartrac-Grohe-Smartrac-GroheUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DC2D680285A2E9A007F9469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9590A8299BAA6600AD652D /* WebKit.framework in Frameworks */,
+				78BC9E91457D9FA95EEC4B33 /* Pods_Terviva.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC2D699285A2E9E007F9469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAF78D64B17734CF5AC6C39 /* Pods_TervivaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC2D6A3285A2E9E007F9469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D060343640F5A435962E7F5 /* Pods_Terviva_TervivaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1025E56148A0475652A74FDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				946CFA91572B210070AB72A0 /* Pods-Smartrac-Grohe.debug.xcconfig */,
+				8E38EA8112256B35CAA71735 /* Pods-Smartrac-Grohe.release.xcconfig */,
+				34D18D77BC0468C803821389 /* Pods-Smartrac-Grohe-Smartrac-GroheUITests.debug.xcconfig */,
+				D34FD8FC495121A9075BD816 /* Pods-Smartrac-Grohe-Smartrac-GroheUITests.release.xcconfig */,
+				8F9FBAC997F4E731993F8108 /* Pods-Smartrac-GroheTests.debug.xcconfig */,
+				3EBFD00C718FB553C0D28862 /* Pods-Smartrac-GroheTests.release.xcconfig */,
+				04530B239320915A6849F4B3 /* Pods-Terviva.debug.xcconfig */,
+				3103D6037191E4DCBAC0A169 /* Pods-Terviva.release.xcconfig */,
+				911850EC81708E4F348A8255 /* Pods-Terviva-TervivaUITests.debug.xcconfig */,
+				CB994B11A6ACB5C6A60F08ED /* Pods-Terviva-TervivaUITests.release.xcconfig */,
+				64402ED37301049207077288 /* Pods-TervivaTests.debug.xcconfig */,
+				BBB77761313E9ABAB062974E /* Pods-TervivaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D1B07B2285A315400134CC1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3DC2D686285A2E9A007F9469 /* AppDelegate.swift */,
+				3DC2D688285A2E9A007F9469 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3D1B07B3285A319C00134CC1 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B07B4285A31D000134CC1 /* Model */,
+				3D1B07B5285A329F00134CC1 /* View */,
+				3D1B07B6285A32BE00134CC1 /* Controllers */,
+				3D24B580286670B7009E2DED /* TeamControllers */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		3D1B07B4285A31D000134CC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B07C3285A371300134CC1 /* AttendanceSummary.swift */,
+				3DE7B21F28639C0B00EEF8E2 /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D1B07B5285A329F00134CC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE3A0285EA9A800292F6C /* Reports */,
+				3DFDE39B285E7D0200292F6C /* LeaveBalance */,
+				3DFDE389285D663900292F6C /* Messages */,
+				3DFDE383285D5A3900292F6C /* Formats */,
+				3DFDE382285D5A2300292F6C /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D1B07B6285A32BE00134CC1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE398285E34A500292F6C /* Profile */,
+				3DFDE388285D646A00292F6C /* Settings */,
+				3DFDE36D285D449700292F6C /* Reports */,
+				3DFDE36C285D447E00292F6C /* Messages */,
+				3DFDE36B285D447500292F6C /* HRMS */,
+				3DFDE36A285D446400292F6C /* Attendance */,
+				3DFDE369285D444C00292F6C /* Home */,
+				3DFDE368285D442900292F6C /* Login */,
+				18FF07362951ED33003450AB /* KPSViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3D1B07BF285A363B00134CC1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE377285D4E2700292F6C /* CAPSPageMenu */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3D1B07C0285A364E00134CC1 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B07C1285A367B00134CC1 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		3D1B07C5285A376400134CC1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B07C6285A37B000134CC1 /* SGAppUrl.swift */,
+				3D1B07C8285A383E00134CC1 /* SGCommonMethods.swift */,
+				3D1B07CA285A38EE00134CC1 /* CellIdentifiers.swift */,
+				3D1B07CC285A397F00134CC1 /* MessageConstants.swift */,
+				3D1B07CE285A39BC00134CC1 /* UIViewControllersExtensions.swift */,
+				3D1B07DC285A7D2C00134CC1 /* SGImages.swift */,
+				3D1B07DE285A7D4700134CC1 /* SGColors.swift */,
+				3D1B07E0285A7D7100134CC1 /* SGEnums.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3D24B580286670B7009E2DED /* TeamControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D24B5942866AB40009E2DED /* SendMessages */,
+				3D24B58F2866A1DD009E2DED /* TeamView */,
+				3D24B58A28668439009E2DED /* TeamMessages */,
+				3D24B58728667FA9009E2DED /* AttendanceApproval */,
+				3D24B58428667AD7009E2DED /* DashBoard */,
+				3D24B581286670D6009E2DED /* AssociateReports */,
+			);
+			path = TeamControllers;
+			sourceTree = "<group>";
+		};
+		3D24B581286670D6009E2DED /* AssociateReports */ = {
+			isa = PBXGroup;
+			children = (
+				3D24B58228667118009E2DED /* AttendanceReportsViewController.swift */,
+			);
+			path = AssociateReports;
+			sourceTree = "<group>";
+		};
+		3D24B58428667AD7009E2DED /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				3D24B58528667B11009E2DED /* DashBoardViewController.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		3D24B58728667FA9009E2DED /* AttendanceApproval */ = {
+			isa = PBXGroup;
+			children = (
+				3D24B58828668008009E2DED /* AttendanceApprovalViewController.swift */,
+				3D24B58B2866848B009E2DED /* TeamViewViewController.swift */,
+				3D24B58D28669C64009E2DED /* InOutTeamViewController.swift */,
+			);
+			path = AttendanceApproval;
+			sourceTree = "<group>";
+		};
+		3D24B58A28668439009E2DED /* TeamMessages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TeamMessages;
+			sourceTree = "<group>";
+		};
+		3D24B58F2866A1DD009E2DED /* TeamView */ = {
+			isa = PBXGroup;
+			children = (
+				3D24B5902866A206009E2DED /* InOutTeamTableViewCell.swift */,
+				3D24B5912866A206009E2DED /* InOutTeamTableViewCell.xib */,
+				3D24B59B2867274C009E2DED /* EditGroupTableViewCell.swift */,
+				3D24B59C2867274C009E2DED /* EditGroupTableViewCell.xib */,
+				3D24B59F28672ADA009E2DED /* NewGroupsTableViewCell.swift */,
+				3D24B5A028672ADA009E2DED /* NewGroupsTableViewCell.xib */,
+				3D24B5A328672F7D009E2DED /* TeamMessagesTableViewCell.swift */,
+				3D24B5A428672F7D009E2DED /* TeamMessagesTableViewCell.xib */,
+				3D24B5A728673140009E2DED /* TeamMessageView.swift */,
+				3D24B5A928673152009E2DED /* TeamMessageView.xib */,
+				3D24B5AB2867484F009E2DED /* DashBoardTableViewCell.swift */,
+				3D24B5AC2867484F009E2DED /* DashBoardTableViewCell.xib */,
+				3D24B5AF2868560C009E2DED /* MeetingTableViewCell.swift */,
+				3D24B5B02868560C009E2DED /* MeetingTableViewCell.xib */,
+			);
+			path = TeamView;
+			sourceTree = "<group>";
+		};
+		3D24B5942866AB40009E2DED /* SendMessages */ = {
+			isa = PBXGroup;
+			children = (
+				3D24B5952866AB7E009E2DED /* SendMessagesViewController.swift */,
+				3D24B5972866AC5A009E2DED /* CreateGroupsViewController.swift */,
+				3D24B59928671720009E2DED /* CreateNewGroupViewController.swift */,
+			);
+			path = SendMessages;
+			sourceTree = "<group>";
+		};
+		3DC2D67A285A2E9A007F9469 = {
+			isa = PBXGroup;
+			children = (
+				3DC2D685285A2E9A007F9469 /* Terviva */,
+				3DC2D69F285A2E9E007F9469 /* TervivaTests */,
+				3DC2D6A9285A2E9E007F9469 /* TervivaUITests */,
+				3DC2D684285A2E9A007F9469 /* Products */,
+				1025E56148A0475652A74FDA /* Pods */,
+				813F9CC74A6A87A21E0E75B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DC2D684285A2E9A007F9469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DC2D683285A2E9A007F9469 /* Terviva.app */,
+				3DC2D69C285A2E9E007F9469 /* TervivaTests.xctest */,
+				3DC2D6A6285A2E9E007F9469 /* TervivaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DC2D685285A2E9A007F9469 /* Terviva */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B07C5285A376400134CC1 /* Constants */,
+				3D1B07C0285A364E00134CC1 /* NetworkManager */,
+				3D1B07BF285A363B00134CC1 /* Extensions */,
+				3D1B07B3285A319C00134CC1 /* MVC */,
+				3D1B07B2285A315400134CC1 /* AppDelegate */,
+				3DC2D68A285A2E9A007F9469 /* ViewController.swift */,
+				3DC2D68C285A2E9A007F9469 /* Main.storyboard */,
+				3D24B57E28666B93009E2DED /* Team.storyboard */,
+				3DC2D692285A2E9E007F9469 /* Assets.xcassets */,
+				3D1B07DA285A7C3A00134CC1 /* Colors.xcassets */,
+				3DC2D694285A2E9E007F9469 /* LaunchScreen.storyboard */,
+				3DC2D697285A2E9E007F9469 /* Info.plist */,
+			);
+			path = Terviva;
+			sourceTree = "<group>";
+		};
+		3DC2D69F285A2E9E007F9469 /* TervivaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC2D6A0285A2E9E007F9469 /* TervivaTests.swift */,
+			);
+			path = TervivaTests;
+			sourceTree = "<group>";
+		};
+		3DC2D6A9285A2E9E007F9469 /* TervivaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC2D6AA285A2E9E007F9469 /* TervivaUITests.swift */,
+				3DC2D6AC285A2E9E007F9469 /* TervivaUITestsLaunchTests.swift */,
+			);
+			path = TervivaUITests;
+			sourceTree = "<group>";
+		};
+		3DFDE368285D442900292F6C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B07BD285A341F00134CC1 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3DFDE369285D444C00292F6C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B07D0285A3A1000134CC1 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3DFDE36A285D446400292F6C /* Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE371285D462D00292F6C /* AttendanceViewController.swift */,
+				3DFDE38E285DE0FE00292F6C /* InTimeViewController.swift */,
+				3DFDE390285DE11D00292F6C /* OutTimeViewController.swift */,
+				3DFDE392285DE15300292F6C /* LeaveViewController.swift */,
+				3DFDE394285DE17000292F6C /* OnDutyViewController.swift */,
+			);
+			path = Attendance;
+			sourceTree = "<group>";
+		};
+		3DFDE36B285D447500292F6C /* HRMS */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE36F285D460F00292F6C /* HRMSContainerViewController.swift */,
+				3DFDE37A285D4FAB00292F6C /* EmployeeInfoViewController.swift */,
+				3DFDE37C285D503900292F6C /* LeaveBalanceViewController.swift */,
+				3DFDE37E285D507B00292F6C /* PayslipsViewController.swift */,
+				3DFDE380285D509A00292F6C /* FormatsViewController.swift */,
+			);
+			path = HRMS;
+			sourceTree = "<group>";
+		};
+		3DFDE36C285D447E00292F6C /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE373285D465100292F6C /* MessageViewController.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		3DFDE36D285D449700292F6C /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE375285D48E600292F6C /* ReportsViewController.swift */,
+				3DFDE3A9285EB05000292F6C /* ReportsDetailsViewController.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		3DFDE377285D4E2700292F6C /* CAPSPageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE378285D4E5A00292F6C /* CAPSPageMenu.swift */,
+			);
+			path = CAPSPageMenu;
+			sourceTree = "<group>";
+		};
+		3DFDE382285D5A2300292F6C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE364285CF7E100292F6C /* HomeCollectionViewCell.swift */,
+				3DFDE365285CF7E100292F6C /* HomeCollectionViewCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3DFDE383285D5A3900292F6C /* Formats */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE384285D5A6600292F6C /* FormatsTableViewCell.swift */,
+				3DFDE385285D5A6600292F6C /* FormatsTableViewCell.xib */,
+			);
+			path = Formats;
+			sourceTree = "<group>";
+		};
+		3DFDE388285D646A00292F6C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE396285E349400292F6C /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3DFDE389285D663900292F6C /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE38A285D665E00292F6C /* MessagesTableViewCell.swift */,
+				3DFDE38B285D665E00292F6C /* MessagesTableViewCell.xib */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		3DFDE398285E34A500292F6C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE399285E34CC00292F6C /* ChangePasswordViewController.swift */,
+				3D274C23285FE4E300C7E687 /* CurrentLocationViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3DFDE39B285E7D0200292F6C /* LeaveBalance */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE39C285E7D3B00292F6C /* LeaveBalanceTableViewCell.swift */,
+				3DFDE39D285E7D3B00292F6C /* LeaveBalanceTableViewCell.xib */,
+			);
+			path = LeaveBalance;
+			sourceTree = "<group>";
+		};
+		3DFDE3A0285EA9A800292F6C /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDE3A1285EA9CC00292F6C /* ReportsTableViewCell.swift */,
+				3DFDE3A2285EA9CC00292F6C /* ReportsTableViewCell.xib */,
+				3DFDE3A5285EAE6800292F6C /* ReportsDetailsTableViewCell.swift */,
+				3DFDE3A6285EAE6900292F6C /* ReportsDetailsTableViewCell.xib */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		813F9CC74A6A87A21E0E75B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC9590A7299BAA6600AD652D /* WebKit.framework */,
+				3B333AC0C91A39A7157E46D9 /* Pods_Terviva.framework */,
+				AC95CA173E1701FE5642F870 /* Pods_Terviva_TervivaUITests.framework */,
+				367C8C96160F0A9017F79911 /* Pods_TervivaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DC2D682285A2E9A007F9469 /* Terviva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC2D6B0285A2E9E007F9469 /* Build configuration list for PBXNativeTarget "Terviva" */;
+			buildPhases = (
+				C95BDB84E1E71722215EEB49 /* [CP] Check Pods Manifest.lock */,
+				3DC2D67F285A2E9A007F9469 /* Sources */,
+				3DC2D680285A2E9A007F9469 /* Frameworks */,
+				3DC2D681285A2E9A007F9469 /* Resources */,
+				483CB040854ED9F7D11B7301 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Terviva;
+			productName = "Smartrac-Grohe";
+			productReference = 3DC2D683285A2E9A007F9469 /* Terviva.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DC2D69B285A2E9E007F9469 /* TervivaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC2D6B3285A2E9E007F9469 /* Build configuration list for PBXNativeTarget "TervivaTests" */;
+			buildPhases = (
+				4E60BF64FD3BD06FBBBF1B16 /* [CP] Check Pods Manifest.lock */,
+				3DC2D698285A2E9E007F9469 /* Sources */,
+				3DC2D699285A2E9E007F9469 /* Frameworks */,
+				3DC2D69A285A2E9E007F9469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC2D69E285A2E9E007F9469 /* PBXTargetDependency */,
+			);
+			name = TervivaTests;
+			productName = "Smartrac-GroheTests";
+			productReference = 3DC2D69C285A2E9E007F9469 /* TervivaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DC2D6A5285A2E9E007F9469 /* TervivaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC2D6B6285A2E9E007F9469 /* Build configuration list for PBXNativeTarget "TervivaUITests" */;
+			buildPhases = (
+				5FD65BDE3116329C83B4BE44 /* [CP] Check Pods Manifest.lock */,
+				3DC2D6A2285A2E9E007F9469 /* Sources */,
+				3DC2D6A3285A2E9E007F9469 /* Frameworks */,
+				3DC2D6A4285A2E9E007F9469 /* Resources */,
+				9FD484F2EA23C8D6B82416F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC2D6A8285A2E9E007F9469 /* PBXTargetDependency */,
+			);
+			name = TervivaUITests;
+			productName = "Smartrac-GroheUITests";
+			productReference = 3DC2D6A6285A2E9E007F9469 /* TervivaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DC2D67B285A2E9A007F9469 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3DC2D682285A2E9A007F9469 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					3DC2D69B285A2E9E007F9469 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3DC2D682285A2E9A007F9469;
+					};
+					3DC2D6A5285A2E9E007F9469 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3DC2D682285A2E9A007F9469;
+					};
+				};
+			};
+			buildConfigurationList = 3DC2D67E285A2E9A007F9469 /* Build configuration list for PBXProject "Terviva" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DC2D67A285A2E9A007F9469;
+			productRefGroup = 3DC2D684285A2E9A007F9469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DC2D682285A2E9A007F9469 /* Terviva */,
+				3DC2D69B285A2E9E007F9469 /* TervivaTests */,
+				3DC2D6A5285A2E9E007F9469 /* TervivaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DC2D681285A2E9A007F9469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFDE367285CF7E100292F6C /* HomeCollectionViewCell.xib in Resources */,
+				3D24B59E2867274C009E2DED /* EditGroupTableViewCell.xib in Resources */,
+				3DC2D696285A2E9E007F9469 /* LaunchScreen.storyboard in Resources */,
+				3DFDE3A8285EAE6900292F6C /* ReportsDetailsTableViewCell.xib in Resources */,
+				3DFDE387285D5A6600292F6C /* FormatsTableViewCell.xib in Resources */,
+				3D24B5AE2867484F009E2DED /* DashBoardTableViewCell.xib in Resources */,
+				3D1B07DB285A7C3A00134CC1 /* Colors.xcassets in Resources */,
+				3D24B5B22868560C009E2DED /* MeetingTableViewCell.xib in Resources */,
+				3DFDE39F285E7D3B00292F6C /* LeaveBalanceTableViewCell.xib in Resources */,
+				3DC2D693285A2E9E007F9469 /* Assets.xcassets in Resources */,
+				3D24B5A228672ADA009E2DED /* NewGroupsTableViewCell.xib in Resources */,
+				3D24B57F28666B93009E2DED /* Team.storyboard in Resources */,
+				3D24B5932866A206009E2DED /* InOutTeamTableViewCell.xib in Resources */,
+				3D24B5AA28673152009E2DED /* TeamMessageView.xib in Resources */,
+				3DFDE38D285D665E00292F6C /* MessagesTableViewCell.xib in Resources */,
+				3D24B5A628672F7D009E2DED /* TeamMessagesTableViewCell.xib in Resources */,
+				3DFDE3A4285EA9CC00292F6C /* ReportsTableViewCell.xib in Resources */,
+				3DC2D68E285A2E9A007F9469 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC2D69A285A2E9E007F9469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC2D6A4285A2E9E007F9469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		483CB040854ED9F7D11B7301 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terviva/Pods-Terviva-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terviva/Pods-Terviva-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Terviva/Pods-Terviva-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E60BF64FD3BD06FBBBF1B16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TervivaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FD65BDE3116329C83B4BE44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Terviva-TervivaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD484F2EA23C8D6B82416F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terviva-TervivaUITests/Pods-Terviva-TervivaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terviva-TervivaUITests/Pods-Terviva-TervivaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Terviva-TervivaUITests/Pods-Terviva-TervivaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C95BDB84E1E71722215EEB49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Terviva-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DC2D67F285A2E9A007F9469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D24B5922866A206009E2DED /* InOutTeamTableViewCell.swift in Sources */,
+				3D1B07CD285A397F00134CC1 /* MessageConstants.swift in Sources */,
+				3D24B5AD2867484F009E2DED /* DashBoardTableViewCell.swift in Sources */,
+				3D1B07C2285A367B00134CC1 /* NetworkManager.swift in Sources */,
+				3DFDE397285E349500292F6C /* SettingsViewController.swift in Sources */,
+				3D24B58628667B11009E2DED /* DashBoardViewController.swift in Sources */,
+				3DFDE37D285D503900292F6C /* LeaveBalanceViewController.swift in Sources */,
+				3DFDE386285D5A6600292F6C /* FormatsTableViewCell.swift in Sources */,
+				3DE7B22028639C0B00EEF8E2 /* LoginModel.swift in Sources */,
+				3D1B07C4285A371300134CC1 /* AttendanceSummary.swift in Sources */,
+				3DFDE38C285D665E00292F6C /* MessagesTableViewCell.swift in Sources */,
+				3D274C24285FE4E300C7E687 /* CurrentLocationViewController.swift in Sources */,
+				3DFDE3AA285EB05000292F6C /* ReportsDetailsViewController.swift in Sources */,
+				3D1B07DD285A7D2C00134CC1 /* SGImages.swift in Sources */,
+				3D24B58C2866848C009E2DED /* TeamViewViewController.swift in Sources */,
+				3DFDE37F285D507B00292F6C /* PayslipsViewController.swift in Sources */,
+				3DC2D68B285A2E9A007F9469 /* ViewController.swift in Sources */,
+				3D24B5B12868560C009E2DED /* MeetingTableViewCell.swift in Sources */,
+				18FF07372951ED33003450AB /* KPSViewController.swift in Sources */,
+				3DFDE379285D4E5A00292F6C /* CAPSPageMenu.swift in Sources */,
+				3D1B07CB285A38EE00134CC1 /* CellIdentifiers.swift in Sources */,
+				3DFDE3A7285EAE6900292F6C /* ReportsDetailsTableViewCell.swift in Sources */,
+				3DFDE376285D48E600292F6C /* ReportsViewController.swift in Sources */,
+				3DFDE39E285E7D3B00292F6C /* LeaveBalanceTableViewCell.swift in Sources */,
+				3DC2D687285A2E9A007F9469 /* AppDelegate.swift in Sources */,
+				3D1B07C9285A383E00134CC1 /* SGCommonMethods.swift in Sources */,
+				3D24B5A528672F7D009E2DED /* TeamMessagesTableViewCell.swift in Sources */,
+				3D1B07CF285A39BC00134CC1 /* UIViewControllersExtensions.swift in Sources */,
+				3DFDE393285DE15300292F6C /* LeaveViewController.swift in Sources */,
+				3D24B5A128672ADA009E2DED /* NewGroupsTableViewCell.swift in Sources */,
+				3DFDE370285D460F00292F6C /* HRMSContainerViewController.swift in Sources */,
+				3D24B5A828673140009E2DED /* TeamMessageView.swift in Sources */,
+				3DFDE381285D509A00292F6C /* FormatsViewController.swift in Sources */,
+				3DFDE366285CF7E100292F6C /* HomeCollectionViewCell.swift in Sources */,
+				3DFDE38F285DE0FE00292F6C /* InTimeViewController.swift in Sources */,
+				3D24B58928668008009E2DED /* AttendanceApprovalViewController.swift in Sources */,
+				3D24B59D2867274C009E2DED /* EditGroupTableViewCell.swift in Sources */,
+				3D1B07E1285A7D7100134CC1 /* SGEnums.swift in Sources */,
+				3D24B58E28669C64009E2DED /* InOutTeamViewController.swift in Sources */,
+				3D24B5962866AB7E009E2DED /* SendMessagesViewController.swift in Sources */,
+				3D24B58328667118009E2DED /* AttendanceReportsViewController.swift in Sources */,
+				3DFDE37B285D4FAB00292F6C /* EmployeeInfoViewController.swift in Sources */,
+				3DFDE395285DE17000292F6C /* OnDutyViewController.swift in Sources */,
+				3D1B07DF285A7D4700134CC1 /* SGColors.swift in Sources */,
+				3D24B59A28671721009E2DED /* CreateNewGroupViewController.swift in Sources */,
+				3DFDE374285D465100292F6C /* MessageViewController.swift in Sources */,
+				3DFDE391285DE11D00292F6C /* OutTimeViewController.swift in Sources */,
+				3D1B07BE285A341F00134CC1 /* LoginViewController.swift in Sources */,
+				3DFDE39A285E34CC00292F6C /* ChangePasswordViewController.swift in Sources */,
+				3DC2D689285A2E9A007F9469 /* SceneDelegate.swift in Sources */,
+				3D1B07D1285A3A1000134CC1 /* HomeViewController.swift in Sources */,
+				3D24B5982866AC5A009E2DED /* CreateGroupsViewController.swift in Sources */,
+				3D1B07C7285A37B000134CC1 /* SGAppUrl.swift in Sources */,
+				3DFDE372285D462D00292F6C /* AttendanceViewController.swift in Sources */,
+				3DFDE3A3285EA9CC00292F6C /* ReportsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC2D698285A2E9E007F9469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC2D6A1285A2E9E007F9469 /* TervivaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC2D6A2285A2E9E007F9469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC2D6AB285A2E9E007F9469 /* TervivaUITests.swift in Sources */,
+				3DC2D6AD285A2E9E007F9469 /* TervivaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DC2D69E285A2E9E007F9469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC2D682285A2E9A007F9469 /* Terviva */;
+			targetProxy = 3DC2D69D285A2E9E007F9469 /* PBXContainerItemProxy */;
+		};
+		3DC2D6A8285A2E9E007F9469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC2D682285A2E9A007F9469 /* Terviva */;
+			targetProxy = 3DC2D6A7285A2E9E007F9469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DC2D68C285A2E9A007F9469 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC2D68D285A2E9A007F9469 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DC2D694285A2E9E007F9469 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC2D695285A2E9E007F9469 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DC2D6AE285A2E9E007F9469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DC2D6AF285A2E9E007F9469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DC2D6B1285A2E9E007F9469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04530B239320915A6849F4B3 /* Pods-Terviva.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BZGGC253SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Terviva/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Terviva;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Terviva would like to access your camera";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Access Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access Location";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Terviva would like to access your gallery";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.experis.Terviva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Terviva_Inhouse;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DC2D6B2285A2E9E007F9469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3103D6037191E4DCBAC0A169 /* Pods-Terviva.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BZGGC253SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Terviva/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Terviva;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Terviva would like to access your camera";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Access Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access Location";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Terviva would like to access your gallery";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.experis.Terviva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Terviva_Inhouse;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DC2D6B4285A2E9E007F9469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64402ED37301049207077288 /* Pods-TervivaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TervivaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Terviva.app/Terviva";
+			};
+			name = Debug;
+		};
+		3DC2D6B5285A2E9E007F9469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB77761313E9ABAB062974E /* Pods-TervivaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TervivaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Terviva.app/Terviva";
+			};
+			name = Release;
+		};
+		3DC2D6B7285A2E9E007F9469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911850EC81708E4F348A8255 /* Pods-Terviva-TervivaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TervivaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Terviva;
+			};
+			name = Debug;
+		};
+		3DC2D6B8285A2E9E007F9469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB994B11A6ACB5C6A60F08ED /* Pods-Terviva-TervivaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TervivaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Terviva;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DC2D67E285A2E9A007F9469 /* Build configuration list for PBXProject "Terviva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC2D6AE285A2E9E007F9469 /* Debug */,
+				3DC2D6AF285A2E9E007F9469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC2D6B0285A2E9E007F9469 /* Build configuration list for PBXNativeTarget "Terviva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC2D6B1285A2E9E007F9469 /* Debug */,
+				3DC2D6B2285A2E9E007F9469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC2D6B3285A2E9E007F9469 /* Build configuration list for PBXNativeTarget "TervivaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC2D6B4285A2E9E007F9469 /* Debug */,
+				3DC2D6B5285A2E9E007F9469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC2D6B6285A2E9E007F9469 /* Build configuration list for PBXNativeTarget "TervivaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC2D6B7285A2E9E007F9469 /* Debug */,
+				3DC2D6B8285A2E9E007F9469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DC2D67B285A2E9A007F9469 /* Project object */;
+}
